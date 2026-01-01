@@ -54,4 +54,14 @@ I learnt some basic operators that would help me in future
 2. &&     execute the second command if the first command succeeds
 3. '>'     it takes input and save that input into the given file, also it will overwrite if something is written in the file
 4. '>>'     same as > but it will append the output to the bottom of the file rather than replacing content
+## Task 8 - Conclusion
+I've covered quite a bit for my first interactions with Linux. These are the essential commands and functions I'll be using whenever I interact with a Linux machine.
+
+### What I Learned:
+- Why Linux is so commonplace today  
+- Interacting with my first Linux machine  
+- Running fundamental Linux commands  
+- Navigating the filesystem efficiently  
+- Using `find` and `grep` to locate data quickly  
+- Important shell operators to power up commands
 
