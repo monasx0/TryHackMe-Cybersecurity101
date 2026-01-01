@@ -33,10 +33,10 @@ Commands I Learnt:
 
 ## Task 5 - Interacting with Filesystem
 I can do really cool things that i do in GUI like:
-1. ls    list everything in the directory
-2. cd    change directory
-3. cat   concatenate
-4. pwd   print my current working directory
+1. ls      list everything in the directory
+2. cd      change directory
+3. cat     concatenate
+4. pwd     print my current working directory
 
 Additionally i learnt the tree command that displays the tree structure starting from a specified directory path.
 
@@ -48,4 +48,10 @@ The symbol * known as wildcard can help me list up everything that ends with the
 ### Use of Grep:
 Grep is a command that help us find content of the file.
 Usage: grep requiredtext filename.txt
-## Task 7
+## Task 7 - Shell Operators
+I learnt some basic operators that would help me in future
+1. &      this operator allows us to execute commands in background
+2. &&     execute the second command if the first command succeeds
+3. '>'     it takes input and save that input into the given file, also it will overwrite if something is written in the file
+4. '>>'     same as > but it will append the output to the bottom of the file rather than replacing content
+
