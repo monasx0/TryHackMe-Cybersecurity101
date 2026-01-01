@@ -26,3 +26,26 @@ In this room, you can interact with Ubuntu Linux directly in your browser
 To do this simply press start machine button and wait for the machine to deploy
 
 ## Task 4 - Running First Few Commands
+We often use command line instead of graphical user interface because it uses less resource and it can be faster to use commands rather than using GUI.
+Commands I Learnt:
+1. echo     output any text i put after it
+2. whoami   output the current user
+
+## Task 5 - Interacting with Filesystem
+I can do really cool things that i do in GUI like:
+1. ls    list everything in the directory
+2. cd    change directory
+3. cat   concatenate
+4. pwd   print my current working directory
+
+Additionally i learnt the tree command that displays the tree structure starting from a specified directory path.
+
+## Task 6 - Searching files
+### Use of Find:
+I can find something on my machine just by using find -name filename.txt
+But if i dont know the file name i only know that it end with the extension say ".txt". So i can esaily find it by just typing the command find -name *.txt
+The symbol * known as wildcard can help me list up everything that ends with the extension .txt
+### Use of Grep:
+Grep is a command that help us find content of the file.
+Usage: grep requiredtext filename.txt
+## Task 7
