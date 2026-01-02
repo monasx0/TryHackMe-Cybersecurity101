@@ -9,7 +9,7 @@ In this room, I will cover some history of Linux and also:
 
 ## Task 2 - Background of Linux
 ### Where is Linux used?
-Linux is used for its superior security, privacy, customization, and stability. It is a free and open-source operating system
+Linux is used for its superior security, privacy, customization, and stability. It is a free and open-source operating system.
 #### Linux is used in:
 1. Internet Infrastructure and Servers
 2. Mobile Devices (Android)
@@ -17,7 +17,7 @@ Linux is used for its superior security, privacy, customization, and stability. 
 4. Automotive Industry
 
 ### Linux Distributions
-Linux refers to a family of UNIX-like operating systems. Linux is a free and open-source operating system, created in 1991, that allows anyone to view, modify and redistribute its source code.
+Linux refers to a family of UNIX-like operating systems. Linux is a free and open-source operating system, created in 1991, that allows anyone to view, modify, and redistribute its source code.
 Ubuntu and Debian are some common distributions of Linux
 
 ## Task 3 - Interaction with the machine (Browser-Based) 
@@ -44,20 +44,20 @@ Additionally, I learned the tree command that displays the tree structure starti
 ## Task 6 - Searching files
 ### Use of Find:
 Using this command I can find something on my machine just by typing  `find -name filename.txt`
-What if I dont know the file name I only know that it ends with the extension say `.txt`. So i can easily find it by just typing the command ` find -name "*.txt"`
-The symbol `*` known as a wildcard can help me list up everything that ends with the extension `.txt`
+What if I don't know the file name I only know that it ends with the extension say `.txt`. So I can easily find it by just typing the command ` find -name "*.txt"`
+The symbol `*` known as a wildcard can help me list everything that ends with the extension `.txt`
 ### Use of Grep:
 Grep is a command that helps us find specified content of the file.
 
 Usage: `grep requiredtext filename.txt`
 ## Task 7 - Shell Operators
-I learned some basic operators that would help me in future
+I learned some basic operators that would help me in the future
 | Command | Description |
 |---| ----------------------------------------------------------|
 | & | this operator allows us to execute commands in the background |
 | && | execute the second command if the first command succeeds |
-| > | it takes input and save that input into the given file, also it will overwrite if something is written in the file |
-| >> | same as > but it will append the output to the bottom of the file rather than replacing content |
+| > | Writes output to a file and replaces old content |
+| >> | Writes output to a file without deleting old content |
 ## Task 8 - Conclusion
 I've covered quite a bit for my first interactions with Linux. These are the essential commands and functions I'll be using whenever I interact with a Linux machine.
 
