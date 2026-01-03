@@ -21,11 +21,11 @@ Windows is a complex operating system with many files, utilities, and features. 
 ## Task 4 - The File System
 The file system used in modern versions of  Windows  is the New Technology File System or simply  NTFS .  
 Before NTFS, there was  FAT16/FAT32 (File Allocation Table) and HPFS (High Performance File System). 
-NTFS addresses supports many limitations of the previous file system; such as:
+NTFS overcomes many limitations of earlier file systems; such as:
 - Supports files larger than 4GB
-- Set specific permissions on folder and files
+- Sets specific permissions on folders and files
 - File and folder compression
-- Provide Encryption ( Encryption File System or **EFS** )
+- Provides Encryption ( Encryption File System or **EFS** )
 
 Below is the list of permissions that you can set to files and folders to grant or deny access on **NTFS**.
 - Full control
@@ -69,11 +69,11 @@ Clicking on a local user account allows you to Change account type or Remove the
 #### User Profiles
 When a new user logs in for the first time, Windows creates a user profile under `C:\Users\Username`.
 Each user profile contains default folders such as:
--Desktop
--Documents
--Downloads
--Music
--Pictures
+- Desktop
+- Documents
+- Downloads
+- Music
+- Pictures
 Windows displays a **User Profile Service** message during initial login while creating the profile.
 
 #### Local Users and Groups
@@ -86,7 +86,7 @@ Administrators can manage users and groups through **Local Users** and **Groups 
 ## Task 7 - User Account Control
 
 #### Local Administratos and Security Risks
-Most home users run Windows as a **Local administrator**, giving full system control. Running constantly with these privileges increases malware risk, since malicious programs can act with the same permissions.
+Most home users run Windows as a **Local Administrator**, giving full system control. Running constantly with these privileges increases the risk of malware infections, as malicious programs can run with the same permissions.
 #### User Account Control (UAC)
 **UAC** protects the system by prompting for permission when tasks need elevated privileges. Programs show a shield icon, and confirmation or credentials are required to proceed, helping prevent unauthorized changes.
 #### How UAC Works
@@ -97,7 +97,7 @@ Most home users run Windows as a **Local administrator**, giving full system con
 ## Task 8 - Settings and the Control Panel
 #### System Settings and Control Panel
 - **Control Panel**: The traditional interface for system management, used for tasks like adding printers, uninstalling programs, or accessing advanced settings.
-- ** Settings Menu**: Introduced in Windows 8 for touch devices, now the primary interface in Windows 10 and later for most system changes.
+- **Settings Menu**: Introduced in Windows 8 for touch devices, now the primary interface in Windows 10 and later for most system changes.
 
 ### Viewing Installed Applications
 To check installed programs:
@@ -112,7 +112,7 @@ This lists all installed software along with publisher names and versions, helpi
 #### Task Manager
 The **Task Manager** provides information about running applications and processes, including system resource usage such as **CPU** and **RAM**, which can be viewed under the **Performance tab**.
 - Access Task Manager by right-clicking the taskbar.
-- By default, it opens in **Simple View**, showing limited information. Click **More details** to see a full view with processes, performance metrics, and other deatails.
+- By default, it opens in **Simple View**, showing limited information. Click **More details** to view all running processes, performance metrics, and additional deatails.
 ## Task 10 - Conclusions
 This module provided a practical overview of the Windows operating system, focusing on its structure, tools, and user management. It helped me understand how to navigate the system, manage accounts, maintain security, and monitor system performance effectively.
 #### What I Learned
