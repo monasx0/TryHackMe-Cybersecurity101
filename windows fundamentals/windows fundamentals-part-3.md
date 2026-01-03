@@ -1,4 +1,4 @@
-# Windows Fundamentals Par 03
+# Windows Fundamentals Part 03
 ## Task 1 - Introduction
 This room will provide an overview of the security features within the Windows operating system.
 
@@ -61,7 +61,7 @@ A firewall controls what network traffic is allowed to enter or leave your devic
 - **Private** – Assigned by the user for home or trusted networks.
 - **Public** – Default profile for public networks like coffee shops or airports.
 
-#### Advance Settings
+#### Advanced Settings
 Configuring firewall rules is intended for advanced users. To open advanced settings, use the Run dialog **Win + R** and type`wf.msc`.
 
 ## Task 6 - App and Browser Control
@@ -94,7 +94,7 @@ When VSS is turned on, you can:
 - Perform a system restore
 - Configure restore settings
 
-## Task 9 - Conclusion
+## Task 10 - Conclusion
 In this room, I covered several built-in Windows security tools that help keep the device protected.
 
 ### What I Learned
@@ -106,8 +106,3 @@ In this room, I covered several built-in Windows security tools that help keep t
 - Learn about **Core Isolation** and **Memory Integrity** to prevent attacks
 - Understand **Trusted Platform Module** (**TPM**) and **BitLocker** for data encryption
 - Use Volume **Shadow Copy Service** (**VSS**) for system restore and data protection
-
-
-
-
-
