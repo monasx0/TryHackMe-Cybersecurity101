@@ -4,5 +4,5 @@ This repository contains my notes and exercises from **Linux Fundamentals Parts 
 It is designed for beginners to learn Linux commands, filesystem navigation, permissions, processes, networking, and basic shell usage.
 
 ---
-## 📂 Folder Structure
+
 
