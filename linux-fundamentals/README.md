@@ -1,2 +1,8 @@
-# TryHackMe-Cybersecurity101
-This beginner-friendly course introduces core concepts in computer security, including networking, cryptography, Windows, Active Directory, and Linux fundamentals. It also covers offensive and defensive security tools, system exploitation basics, and explores potential cybersecurity career paths.
+# Linux Fundamentals
+
+This repository contains my notes and exercises from **Linux Fundamentals Parts 1–3**.  
+It is designed for beginners to learn Linux commands, filesystem navigation, permissions, processes, networking, and basic shell usage.
+
+---
+## 📂 Folder Structure
+
