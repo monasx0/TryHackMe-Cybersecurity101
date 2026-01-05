@@ -19,17 +19,17 @@ In programming, an object is an item that contains properties and behavior. For 
 Similarly, in **PowerShell**, an object is a fundamental unit that encapsulates data and functionality, making it easier to manipulate information. A **PowerShell** object can contain data such as file names, usernames, and passwords, and it can also perform functions like copying data or starting a process.
 
 ## Task 3 - PowerShell Basics
-**PowerShell** commands are known as `cmlets` (command-lets). They are much powerful than **Windows commands** and can perform advanced data manipulaton.
+**PowerShell** commands are known as `cmlets` (**command-lets**). They are much powerful than **Windows commands** and can perform advanced data manipulaton.
 
 To run **PowerShell**, press `Windows + R` and type `powershell` and hit Enter.
 ### Basic Cmdlets
 To retrieve the list of all **cmdlets**, functions and aliased that can be executed in **PowerShell**, use `get-command` command. We can also filter commands property by just executing `Get-Command -CommandType "Function"`. 
 
-You can display the help page using the Get-Help command. For example, to get help about a specific command, you can use Get-Help Get-Date.
+You can display the help page using the `Get-Help command`. For example, to get help about a specific command, you can use `Get-Help Get-Date` command.
 
-To perform tasks more quickly, **PowerShell** provides aliases. Aliases are shortcuts that act as alternatives to full cmdlet names and are commonly used for quick navigation and simple tasks. For example, dir is an alias for Get-ChildItem, and cd is an alias for Set-Location.
+To perform tasks more quickly, **PowerShell** provides aliases. **Aliases** are shortcuts that act as alternatives to full cmdlet names and are commonly used for quick navigation and simple tasks. For example, dir is an alias for `Get-ChildItem`, and cd is an alias for `Set-Location`.
 #### Where to Find Additional PowerShell Cmdlets
-You can find additional **PowerShell** cmdlets using Find-Module, which searches for modules online that contain new commands. If you don’t know the exact name, you can use wildcards. For example, `Find-Module *Azure*` lists all modules with “Azure” in their name.
+You can find additional **PowerShell** cmdlets using `Find-Module`, which searches for modules online that contain new commands. If you don’t know the exact name, you can use **wildcards**. For example, `Find-Module *Azure*` lists all modules with “Azure” in their name.
 
 
 ## Task 4 - Navigating the File System and Working with Files
@@ -43,9 +43,15 @@ To remove an item in **PowerShell**, use the `Remove-Item` cmdlet and specify th
 For example: `Remove-Item -Path ".\Desktop\New Folder"`. This command deletes the folder named “New Folder” from the Desktop.
 
 To work with files in **PowerShell**, you can use the following cmdlets:
-- **Copy-Item**: Copies a file or folder to a new location. Example: `Copy-Item -Path ".\file.txt" -Destination ".\Backup\file.txt"`
-- **Move-Item**: Moves a file or folder to a new location. Example: `Move-Item -Path ".\file.txt" -Destination ".\Archive\file.txt"`
-- **Get-Content**: Displays the contents of a file. Example: `Get-Content -Path ".\file.txt"`
+- **Copy-Item**: Copies a file or folder to a new location.
+
+**Example**: `Copy-Item -Path ".\file.txt" -Destination ".\Backup\file.txt"`
+- **Move-Item**: Moves a file or folder to a new location.
+
+**Example**: `Move-Item -Path ".\file.txt" -Destination ".\Archive\file.txt"`
+- **Get-Content**: Displays the contents of a file.
+
+**Example**: `Get-Content -Path ".\file.txt"`
 
 ## Task 5 - Piping, Filtering and Sorting Data
 ### Piping
