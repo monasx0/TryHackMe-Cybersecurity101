@@ -4,7 +4,7 @@
 The **Linux Shell** is a program that acts as an interface between the user and the operating system's **kernel**, accepting and interpreting commands to execute programs and manage system resources. It is a powerful **command-line interface** that provides greater control and **automation** capabilities through **scripting**.
 
 ## Task 2 -  How to Interact with a Shell?
-Here are some of the basic commands that will help interact with a shell.
+Here are some of the basic commands that will help you interact with a shell.
 #### Change Directory
 To change directory, use the `cd` command.
 #### Print Working Directory
@@ -47,7 +47,7 @@ In **Linux**, there are several types of **shells** available. Each **shell** ha
 ### Shell Script
 Basically, a **Shell Script** is a set of commands that a user writes in a special file and then the computer reads those commands and executes them.
 
-The file must named with the extension `.sh`. It is the default extension for bash scripts.
+The file must be named with the extension `.sh`. It is the default extension for bash scripts.
 
 ### Creating Shell Scripts
 A shell script starts with a shebang (#!) followed by the shell path, like #!/bin/bash. It tells the system which shell should run the script.
@@ -118,7 +118,7 @@ Authentication Denied!!
 #### Summary
 - The **Locker Script** checks whether a user is allowed to open a locker.
 - It asks for the **username**, **company name**, and **PIN**.
-- The **script** saves these details and compares them with correct values.
+- The **script** saves these details and compares them with the correct values.
 - If all details match, access is allowed.
 - If any detail is wrong, access is denied.
 
