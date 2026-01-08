@@ -114,7 +114,7 @@ john:1efee03cdcb96d90ad48ccc7b8666033
 ## Task 8 - Custom Rules
 
 ### Custom Rules in John the Ripper
-As you explored **Single Crack mode**, you may have noticed that many **passwords** follow reusable and predictable patterns. Often, users apply the same transformations repeatedly—such as capitalising the first letter or appending numbers and symbols. Custom rules in **John the Ripper** allow you to formalise these observations by defining your own mangling rules, which John then uses to generate password candidates dynamically.
+As you explored **Single Crack mode**, you may have noticed that many **passwords** follow reusable and predictable patterns. Often, users apply the same transformations repeatedly—such as capitalizing the first letter or appending numbers and symbols. Custom rules in **John the Ripper** allow you to formalise these observations by defining your own mangling rules, which John then uses to generate password candidates dynamically.
 
 ### Where Custom Rules Are Defined
 Custom rules are stored in the `john.conf` configuration file.
@@ -140,7 +140,7 @@ Modifiers define where changes occur, while character sets define what character
 - `[A-z]` — Both uppercase and lowercase letters
 - `[!£$%@]` — Specific symbols
 
-## Task 9 - Cracking Password Protected Zip Files
+## Task 9 - Cracking Password Protected ZIP Files
 ### Cracking Password-Protected ZIP Files
 It is possible to use **John the Ripper** to crack **passwords** protecting **ZIP archives**. As with other protected file types, **John** cannot work with **ZIP** files directly, so we first need to convert the archive into a **hash** format that **John** understands. This is done using a companion tool from the **John suite**, while the cracking process itself uses the same syntax you are already familiar with.
 
