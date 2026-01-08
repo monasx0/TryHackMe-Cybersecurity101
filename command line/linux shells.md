@@ -62,7 +62,7 @@ Think of a **variable** like a box where you store something. You can give it a 
 **Loops** let you repeat tasks automatically in a **script**. They save time by running the same commands multiple times.
 
 **Example**:
-```bash
+```
 for i in 1 2 3; do
   echo "Step $i"
 done
@@ -70,7 +70,7 @@ done
 #### Conditional Statement
 **Conditional statements** let your **script** make decisions based on certain conditions. They run different commands depending on whether a condition is **true** or **false**.
 
-```bash
+```
 if [ $name = "Alice" ]; then
   echo "Hello Alice"
 fi
@@ -84,7 +84,7 @@ If the entered details are correct, access is allowed; otherwise, access is deni
 This **script** helps us understand how **variables** store information, **loops** repeat tasks, and **conditional statements** make decisions.
 
 ### Script
-```bash
+```
 #!/bin/bash
 
 # Asking user details
@@ -105,7 +105,7 @@ else
 fi
 ```
 ### Script Execution
-```bash
+```
 user@ubuntu:~$ ./locker_script.sh
 Enter your Username:
 John
