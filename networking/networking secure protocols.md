@@ -53,7 +53,7 @@ Adding **TLS** to email protocols like **SMTP**, **POP3**, and **IMAP** secures 
 **SFTP (SSH File Transfer Protocol)** and **FTPS (File Transfer Protocol Secure)** both provide **secure methods** for transferring files, but they rely on **different underlying technologies**. **SFTP** is part of the **SSH protocol suite** and operates on **port 22**, while **FTPS** uses **TLS** for security, similar to **HTTPS**, and typically operates on **port 990**.
 
 **Example (SFTP command)**:  
-```bash
+```
 sftp user@hostname
 ```
 
